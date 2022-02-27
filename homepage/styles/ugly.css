@@ -5,38 +5,114 @@ ul {
 	overflow: hidden;
 	background-color: #333;
 	border-radius: 20%;
-  }
-  
-  li {
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+	background-image: linear-gradient(to right, rgb(255, 115, 0) , yellow);
+	background-color: #111;
+}
+
+.intro{
+	align-items: center;
+}
+.container{
+	margin-bottom: 10em;
+
+}
+
+li {
 	float: left;
-  }
-  
-  li a {
+}
+
+li a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-  }
-  
-  li a:hover {
-	background-color: #111;
-  }
-  .active {
+}
+
+li a:hover {
+	background-color: rgb(104, 102, 9);
+}
+
+ol li {
+	background: #ffe5e5;
+	color: darkred;
+	padding: 5px;
+	margin-left: 35px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1{
+	text-shadow: 2px 2px #ff0000;
+
+}
+h1.titles{
+	transform: rotate(-6deg);
+	padding-bottom: 20px;
+
+}
+.column {
+	float: left;
+	padding: 10px;
+}
+
+
+.left {
+	width: fit-content;
+	height: fit-content;
+}
+
+.right {
+	width: 60%;
+	height: fit-content;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.active {
 	background-color: #9a8cc7;
-  }	
+}	
+
 .navbar{
 	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
     border-radius: 8pt;
 }
 
 img {
+	width: 250px;
+	height: 250px;
+	align-items: center;
 	border-radius: 50%;
-	width: 150px;
-	height: 150px;
+	margin: 1em;
   }
+
+img.nasif{
+	width: 250px;
+	height: 250px;
+	border-color: #111;
+	border-width: 1em;
+	border: #111;
+	border-radius: 50%;
+}
   
-  hr {
+hr {
 	border: 1px solid #f1f1f1;
 	margin-bottom: 25px;
-  }
+}
