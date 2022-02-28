@@ -31,5 +31,6 @@ References
 ==========
 1. Paperback cover for noisy texture on css was collected from https://stackoverflow.com/a/13996191 answered by user: tim.baker
 2. w3schools.com for HTML and CSS help
+3. Cover images collected from https://www.gutenberg.org/browse/scores/top 
 
 
